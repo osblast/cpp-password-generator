@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1383996857 source:c:\users\anthony\desktop\testampwd\testampwd\main.cpp
+	<iostream>
+	<windows.h>
+	<time.h>
+
