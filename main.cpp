@@ -109,11 +109,6 @@ int main(int argc, char **argv)
 
     while(!(isDone))
     {
-
-        total_combinations++;
-
-        cout << "Word: ";
-
         int zctr=0; int mlen=maxlen; bool lRst=FALSE;
 
         int xctr=0; bool ifnd=FALSE;
@@ -146,6 +141,9 @@ int main(int argc, char **argv)
         if(isDone != TRUE)
         {
             int shw=0;
+
+            cout << "Word: ";
+            total_combinations++;
 
             for(shw=0; shw < maxlen; shw++)
             {
